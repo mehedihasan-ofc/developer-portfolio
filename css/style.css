@@ -21,6 +21,18 @@
     padding: 18px 35px;
 }
 
+.call-button {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    background: transparent;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
 section {
     margin-top: 130px;
 }
@@ -205,7 +217,9 @@ main {
     text-align: left;
 }
 
-.contact input[type="text"], input[type="email"], textarea {
+.contact input[type="text"],
+input[type="email"],
+textarea {
     margin-bottom: 24px;
     border: 0;
     width: 100%;
